@@ -1,0 +1,466 @@
+@media only screen and (min-width: 360px)and (max-width: 800px)
+  {
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #555;
+        padding: 5px;
+      }
+    
+      a {
+        text-decoration:dashed;
+        padding: 5px 5px;
+        font-size: 18px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+.logo
+  {
+    width: 180px;
+    height: 180px;
+    margin-left:27%;  
+  }
+  h1{
+    text-align: center;
+    font-size: 26px;
+    margin-top: -7%;
+  }
+  h2{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -2%
+  }    
+  p{
+    text-align: center;
+    font-size: 17px;  
+  }
+  div.gallery {
+    margin: 300px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    padding: px;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 0px;
+    text-align: center;
+    font-size: 22px;
+  }
+  h3{
+  font-size: 23px;
+    }
+}
+  @media only screen and (min-width: 393px)and (max-width: 851px)
+  {}
+  @media only screen and (min-width: 412px)and (max-width: 915px)
+  {
+    div.gallery {
+        margin: 80px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 200px;
+        padding: px;
+      }
+    p{
+        text-align: center;
+        font-size: 16px;  
+      }
+      div.gallery:hover {
+        border: 2px solid;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 0px;
+        text-align: center;
+        font-size: 22px;
+      }
+      h3{
+      font-size: 23px;
+    } 
+  }
+  @media only screen and (min-width: 360px)and (max-width: 880px)
+  {}
+  @media only screen and (min-width: 360px)and (max-width: 804px)
+  {}
+  @media only screen and (min-width: 360px)and (max-width: 800px)
+  {}
+  @media only screen and (min-width: 360px)and (max-width: 780px)
+  {
+    div.gallery {
+        margin: 100px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 200px;
+        padding: px;
+      }
+      div.gallery:hover {
+        border: 2px solid;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 0px;
+        text-align: center;
+        font-size: 22px;
+      }
+      h3{
+      font-size: 23px;
+  }
+}
+  @media only screen and (min-width: 320px)and (max-width: 568px)
+  {
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #555;
+        padding: 5px;
+      }
+    
+      a {
+        text-decoration:dashed;
+        color: white;
+        font-size: 16px;
+        padding: 5px 2px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+      .logo
+      {
+        width: 180px;
+        height: 180px;
+        margin-left:27%;  
+      }
+      h1{
+        text-align: center;
+        font-size: 23px;
+        margin-top: -7%;
+      }
+      h2{
+        text-align: center;
+        font-size: 15px;
+        margin-top: -2%
+      } 
+      p{
+        text-align: center;
+        font-size: 16px;  
+      }
+      div.gallery {
+        margin:45px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 200px;
+        padding: px;
+      }
+      div.gallery:hover {
+        border: 2px solid;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 0px;
+        text-align: center;
+        font-size: 22px;
+      }
+      h3{
+      font-size: 23px;
+       }
+}
+  @media only screen and (min-width: 375px)and (max-width: 812px)
+  {
+    h1{
+        text-align: center;
+        font-size: 27px;
+        margin-top: -7%;
+      }
+      h2{
+        text-align: center;
+        font-size: 19px;
+        margin-top: -2%
+      } 
+      div.gallery {
+        margin: 75px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 200px;
+        padding: px;
+      }
+      div.gallery:hover {
+        border: 2px solid;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 0px;
+        text-align: center;
+        font-size: 22px;
+      }
+      h3{
+      font-size: 23px;
+    }
+}
+  @media only screen and (min-width: 414px)and (max-width: 896px)
+  {
+    h1{
+        text-align: center;
+        font-size: 29px;
+        margin-top: -7%;
+      }
+      h2{
+        text-align: center;
+        font-size: 21px;
+        margin-top: -2%
+      } 
+  }
+  @media only screen and (min-width: 390px)and (max-width: 844px)
+  {}
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 30px;
+    }
+    div.gallery {
+        margin: 10% auto; /* Center the images horizontally and adjust margin */
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px; /* Adjust the width as needed */
+        padding: 20px;
+    }
+
+    div.gallery:hover {
+        border: 2px solid;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 0px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    p {
+        text-align: center;
+        font-size: 30px;
+    }
+    div.gallery {
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%; /* Adjust the width as needed */
+        padding: 0px;
+    }
+
+    div.gallery:hover {
+        border: 2px solid;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 0px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+}
+
+  @media only screen and (min-width: 834px)and (max-width: 1194px)
+  {}
+  @media only screen and (min-width: 800px)and (max-width: 1280px)
+  {}
+  @media only screen and (min-width: 705px)and (max-width: 1114px)
+  {
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #555;
+        padding: 5px;
+      }
+    
+      a {
+        text-decoration:dashed;
+        color:white;
+        font-size: 40px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+      .logo
+      {
+        width: 250px;
+        height: 250px;
+        margin-left:35%;  
+      }
+      div.gallery {
+        margin-left: 225px;
+		margin-right: 225px;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        padding: 0px;
+      }
+  
+      div.gallery:hover {
+        border: 2px solid;
+      }
+  
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+  
+      div.desc {
+        padding:0px;
+        text-align: center;
+        font-size: 30px;
+      }
+  
+      h3 {
+        font-size: 39px;
+     
+      }
+  }
+  @media only screen and (min-width: 884px)and (max-width: 1104px)
+  {
+    div.gallery {
+        margin-left: 200px;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        padding: 0px;
+      }
+  
+      div.gallery:hover {
+        border: 2px solid;
+      }
+  
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+  
+      div.desc {
+        padding:0px;
+        text-align: center;
+        font-size: 30px;
+      }
+  
+      h3 {
+        font-size: 39px;
+         }
+}
+  @media only screen and (min-width: 800px)and (max-width: 1280px)
+  {
+
+    .logo
+    {
+      width: 300px;
+      height: 300px;
+      margin-left:38%;  
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #555;
+        padding: 5px;
+      }
+    
+      a {
+        text-decoration:dashed;
+        color:white;
+        font-size: 40px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+      div.gallery {
+        margin-left: 50px;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 270px;
+        padding: 0px;
+      }
+  
+      div.gallery:hover {
+        border: 2px solid;
+      }
+  
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+  
+      div.desc {
+        padding:0px;
+        text-align: center;
+        font-size: 33px;
+      }
+      h3 {
+        font-size: 31px;
+     
+      }      
+  }

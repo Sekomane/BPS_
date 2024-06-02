@@ -1,0 +1,139 @@
+
+  @media screen and (max-width:500px) {
+    .logo{
+    margin-left:33%;
+    width: 130px;
+    height: 180px;
+    }
+h1{
+ text-align: center;
+ margin-top: -13%;
+ font-size: 20px;   
+}
+h2{
+ text-align: center;
+ margin-top: -3%;
+ font-size: 15px;   
+}
+nav,a{
+  margin-left: 0%;
+  text-decoration: none;
+  font-size: 20px;
+  float: left;
+  text-align: center;
+  padding: 0px 7px;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+  }
+  p{
+    text-align: center;
+    font-size: 16px;
+}
+h4{
+  text-align: center;
+  font-size: 20px;
+}.product{
+  width: 100px;
+  height: 100px;
+  border-radius: 150px;
+}
+
+.content {
+  float: left;
+  width: 33.33%;
+  
+}
+ .content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+figcaption{
+  font-size: 20px;
+}
+    
+/*meet a team*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 55.3%;
+  margin-left: 26%;
+  margin-bottom: 16px;
+  padding-top: 80px;
+}
+ .email{
+  font-size: 14px;
+ } 
+ .ceo{
+  font-size: 20px;
+}
+.reviews{
+  font-size:23px;
+  font-weight:bold;
+}
+.testmonial
+{
+  font-size: 17px;
+}  
+footer{
+  border-radius: 10px;
+  margin-top: 100px;
+  background-color: #555;
+}
+.footerlogo{
+  width: 100px;
+  height: 100px;
+  margin-left: 44%;
+}
+.followus{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 39%;
+}
+
+
+
+}
