@@ -1,75 +1,631 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>BPS_Marketing_PTY_LTD</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="logo-image.png">
-    <link rel="stylesheet" href="BPS_Marketing mediaQuery.css"> 
-   <link rel="stylesheet" href="rori.css">
-   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>BPS_Marketing_PTY_LTD</title>
+</head>
+
+<style>
+    .logo
+{
+  width: 300px;
+  height: 300px;
+  margin-left:40%;  
+
+}
+.heading1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0%;
+  font-weight: bold;
+}
+h2{
+  text-align: center;
+  font-size: 30px; 
+  font-weight: bold;
+}
+p{
+  text-align: center;
+  font-size: 30px; 
+  margin: 20px; 
+}
+body {
+  margin: 0;
+  background-color: slategrey;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #555;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #777;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;  
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+p{
     
-    </head>
-  <body>
-    <header>
-      <nav>
-        <a href="Bps_Marketing_Pty_Ltd.html">Home</a>
-        <a href="About-us.html">About Us</a>
-        <a href="Contact-Us.html">Contact us</a>
-        <a href="#">Our Services</a>
-      </nav>
-    </header>
+    font-size: 20px;
+}
+.welcome::first-letter
+{
+    font-size: 50px;
+}
+.footer-icon{
+      width: 40px;
+      height: 40px;
+      border-radius: 5px;
+     }
+     footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .footer-content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  .section {
+      flex: 1 1 300px;
+      margin: 10px;
+  }
+
+  .section h2 {
+      color: #5d4f4f;
+      border-bottom: 1px solid black;
+      padding-bottom: 10px;
+  }
+
+  .contact-info {
+      display: flex;
+      align-items: center;
+  }
+
+  .contact-info img {
+      margin-right: 10px;
+  }
+
+  .quick-links a {
+      display: block;
+      color: #aaa;
+      text-decoration: none;
+      margin-bottom: 5px;
+  }
+
+  .quick-links a:hover {
+      color: #fff;
+  }
+  .contact
+  {
+    font-size: 20px;
+  }
+  .about-us{
+    font-size: 15px;
+  }
+  .all-right{
+    text-align: center;
+    font-size: 15px;
+  }
+   .content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content{
+    float: left;
+    width: 25%;
+    margin-left: 7%;
+}
+figcaption{
+  font-size: 30px;
+  color:black ;
+}
+footer{
+  clear: both;
+}
+.product{
+  width: 250px;
+  height: 250px;
+}
+.map
+{
+  width: 100%;
+  margin-top: 10px;
+}
+div.gallery {
+  margin: 100px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 235px;
+  padding: 20px;
+  background-color:rgba(245, 245, 245, 0.403);
+}
+
+div.gallery:hover {
+  border: 2px solid;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+/*meet a team*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color:black;
+  font-weight: bolder;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50.3%;
+  margin-left: 27%;
+  margin-bottom: 16px;
+  padding-top: 140px;
+}
+  .ceo{
+      font-size: 50px;
+  }
+ 
+  #slideshow-container {
+    width: 100%;
+    height: 200px; /* Adjust height as per your requirements */
+    overflow: hidden;
+    position: relative;
+    }
     
-    <div>
-      <img class="logo" src="logo-image.png" alt="" />
+    .testimonial-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    }
+    
+    .testimonial-slide.active {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    }
+    .reviews{
+    font-size:50px;
+    font-weight:bold;
+    }
+    .testmonial
+    {
+    font-size: 30px;
+    color:black;
+    }
+@media only screen and (min-width: 360px)and (max-width: 800px)
+{
+  .logo
+  {
+    width: 180px;
+    height: 180px;
+  }
+
+  .heading1{
+    font-size: 27px;
+  }
+  .ceo{
+    font-size: 30px;
+  }
+  h2{
+    text-align: center;
+    font-size: 30px;
+
+  } 
+  p{
+    font-weight:400;
+  }
+  
+  nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #555;
+        padding: 5px;
+      }
+    
+      a {
+        text-decoration:dashed;
+        padding: 0px 0px;
+        font-size: 15px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      .parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .reviews{
+    font-size: 30px;
+  }
+  .testmonial
+  {
+    font-size: 20px;
+  }
+      div.gallery {
+        margin: 60px;
+        border: 1px solid #ccc;
+        width: 235px;
+        padding: 20px;
+        background-color:rgba(245, 245, 245, 0.403);
+}
+
+      div.gallery:hover {
+        border: 2px solid;
+}
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    h2{
+        font-size: 17px;
+      }
+      .contact{
+        font-size: 10px;
+      }
+      .footer-icon{
+        height: 20px;
+        width: 20px;
+      }
+  }
+      @media only screen and (min-width: 320px)and (max-width: 568px)
+      {
+        h1{
+          font-size: 30px;
+        }
+        .product{
+          width: 80px;
+          height: 80px;
+  }
+  .logo{
+    width: 150px;
+    height: 150px;
+  }
+  .heading1{
+    font-size: 25px;
+  }
+p{
+  font-size: 15px;
+}
+.reviews{
+  font-size: 20px;
+}
+.testmonial{
+  font-size: 15px;
+}
+.ceo{
+  font-size: 20px;
+}
+  nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #555;
+        padding: 5px;
+      }
+    
+      a {
+        text-decoration:dashed;
+        padding: 0px 0px;
+        font-size: 12px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      .parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+      div.gallery {
+        margin: 60px;
+        border: 1px solid #ccc;
+        width: 200px;
+        padding: 20px;
+        background-color:rgba(245, 245, 245, 0.403);
+}
+
+      div.gallery:hover {
+        border: 2px solid;
+}
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      } 
+
+      h2{
+        font-size: 17px;
+      }
+      .contact{
+        font-size: 10px;
+      }
+      .footer-icon{
+        height: 20px;
+        width: 20px;
+      }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #555;
+        padding: 5px;
+      }
+    
+      a {
+        text-decoration:dashed;
+        padding: 0px 0px;
+        font-size: 20px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      .testmonial{
+        font-size: 25px;
+      }
+      h2{
+        font-size: 25px !important;
+      }
+.heading1{
+  font-size: 40px;
+}
+      .contact{
+        font-size: 20px !important;
+      }
+      .footer-icon{
+        height: 20px;
+        width: 20px;
+      }
+}
+@media only screen and (min-width: 820px)and (max-width: 1180px){
+  .parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  div.gallery {
+        margin: 60px;
+        border: 1px solid #ccc;
+        width: 250px;
+        padding: 20px;
+        background-color:rgba(245, 245, 245, 0.403);
+}
+
+      div.gallery:hover {
+        border: 2px solid;
+}
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      } 
+      h2{
+        font-size: 17px;
+      }
+      .contact{
+        font-size: 10px;
+      }
+      .footer-icon{
+        height: 20px;
+        width: 20px;
+      }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px)
+{
+  .parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  div.gallery {
+        margin: 60px;
+        border: 1px solid #ccc;
+        width: 250px;
+        padding: 20px;
+        background-color:rgba(245, 245, 245, 0.403);
+}
+
+      div.gallery:hover {
+        border: 2px solid;
+}
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      } 
+      h2{
+        font-size: 23px;
+      }
+  
+      .contact{
+        font-size: 20px;
+      }
+      .footer-icon{
+        height: 20px;
+        width: 20px;
+      }
+}
+@media only screen and (min-width: 414px)and (max-width: 896px){
+  
+  .parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  div.gallery {
+        margin: 75px;
+        border: 1px solid #ccc;
+        width: 250px;
+        background-color:rgba(245, 245, 245, 0.403);
+}
+
+      div.gallery:hover {
+        border: 2px solid;
+}
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      } 
+      h2{
+        font-size: 17px;
+      }
+      .contact{
+        font-size: 10px;
+      }
+      .footer-icon{
+        height: 20px;
+        width: 20px;
+      }
+}
+
+</style>
+
+<body>
+  <header>
+    <nav>
+      <a href="Bps_Marketing_Pty_Ltd.html">Home</a>
+      <a href="About-us.html">About Us</a>
+      <a href="Contact-Us.html">Contact Us</a>
+      <a href="#">Our Services</a>
+    </nav>
+  </header>
+  
+
+  <div class="logo">
+    <img class="logo" src="logo-image.png" alt="" />
+  </div>
+  <h1 class="heading1">BPS MARKETING(PTY-LTD)</h1>
+  <h2>WE MAKE IMPOSSIBLE POSSIBLE</h2>
+
+  <p>
+    BPS MARKETING PTY(LTD)IS A GLOBAL LEADER IN DIGITAL AND TRANSPORTATION
+    AGENCY. FOUNDED IN 2021,THE COMPANY HAS BEEN COMMITTED IN PROVIDING
+    INNOVATIVE TECHNOLOGIES AND INTERGRATED SOLUTIONS FOR GLOBAL OPERATORS,
+    GOVERNMENT AND ENTERPRISE,THE COMPANY IS DEDICATED TO ENABLING
+    CONNECTIVITY AND TRUST EVERYWHERE TO EASIER LIFE
+  </p>
+
+  <div class="parent-container">
+    <div class="gallery">
+      <a target="_blank" href="Graphic Designer.html">
+        <img src="3159310.png" alt="Cinque Terre" width="600" height="400" />
+      </a>
+      <div>
+        <h3> GRAPHIC DESIGN</h3>
+      </div>
+      <div class="desc">We bring creativity to life. Let's collaborate to make your brand stand out in the crowd.</div>
     </div>
 
-      <h1>BPS MARKETING(PTY-LTD)</h1>
-      <h2>WE MAKE IMPOSSIBLE POSSIBLE</h2>
-
-      <p>
-        BPS MARKETING PTY(LTD)IS A GLOBAL LEADER IN DIGITAL AND TRANSPORTATION
-        AGENCY. FOUNDED IN 2021,THE COMPANY HAS BEEN COMMITTED IN PROVIDING
-        INNOVATIVE TECHNOLOGIES AND INTERGRATED SOLUTIONS FOR GLOBAL OPERATORS,
-        GOVERNMENT AND ENTERPRISE,THE COMPANY IS DEDICATED TO ENABLING
-        CONNECTIVITY AND TRUST EVERYWHERE TO EASIER LIFE
-      </p>
-
-      <div class="parent-container">
-      <div class="gallery">
-        <a target="_blank" href="Graphic Designer.html">
-          <img src="3159310.png" alt="Cinque Terre" width="600" height="400" />
-        </a>
-        <div>
-          <h3> GRAPHIC DESIGN</h3>
-        </div>
-        <div class="desc">We bring creativity to life. Let's collaborate to make your brand stand out in the crowd.</div>
+    <div class="gallery">
+      <a target="_blank" href="Online_Services.html">
+        <img src="internet.png" alt="Forest" width="600" height="400" />
+      </a>
+      <div>
+        <h3>ONLINE SERVICE</h3>
       </div>
+      <div class="desc">Boost your business with our online services! We deliver solutions tailored to your needs.</div>
+    </div>
 
-      <div class="gallery">
-        <a target="_blank" href="Online_Services.html">
-          <img src="internet.png" alt="Forest" width="600" height="400" />
-        </a>
-        <div>
-          <h3>ONLINE SERVICE</h3>
-        </div>
-        <div class="desc">Boost your business with our online services! We deliver solutions tailored to your needs.</div>
+    <div class="gallery">
+      <a target="_blank" href="Transport.html">
+        <img src="delivery (1).png" alt="Northern Lights" width="600" height="400" />
+      </a>
+      <div>
+        <h3>TRANSPORTATION</h3>
       </div>
-
-      <div class="gallery">
-        <a target="_blank" href="Transport.html">
-          <img src="delivery (1).png" alt="Northern Lights" width="600" height="400" />
-        </a>
-        <div>
-          <h3>TRANSPORTATION</h3>
-        </div>
-        <div class="desc">We offer transportation services including short and long-distance trips, full-day and half-day options, routes from Gauteng to other provinces, airport pick-up and drop-off, and monthly staff transport</div>
-      </div>
+      <div class="desc">We offer transportation services including short and long-distance trips, full-day and half-day options, routes from Gauteng to other provinces, airport pick-up and drop-off, and monthly staff transport</div>
+    </div>
 </div>
-      <!--meet a team layout-->
 
-  <div class="column">
+<div class="column">
     <h1 class="ceo">MEET YOUR CEO</h1>
 
     <div class="card">
@@ -84,85 +640,77 @@
         <p><button class="button">Contact</button></p>
       </div>
       </div>
-      
-      <br>
-      <p class="reviews">What customer says</p>
+
+
+<br>
+<p class="reviews">What customer says:</p>
 </div>
 <!---CUSTOMER FEEDBACK-->
 <div id="slideshow-container">
-  <div class="testimonial-slide">
-    <p class="testmonial">"Your creativity is truly outstanding! The way you brought my vision to life <br> through your designs exceeded my expectations. <br> Your talent as a graphic designer is truly remarkable."</p>
-  </div>
-
-  <div class="testimonial-slide">
-    <p class="testmonial">"I'm incredibly impressed with your attention to detail. The precision and thoughtfulness <br> you put into every element of the design not only reflect <br> your skill but also demonstrate your dedication to delivering top-notch service"</p>
-  </div>
-
-  <div class="testimonial-slide">
-    <p class="testmonial">"Your professionalism throughout the entire process made working with you a pleasure. <br> From understanding my needs to delivering on time, your commitment to <br> excellence in graphic design truly sets you apart. Thank you for providing such an exceptional service"</p>
-  </div>
-
+<div class="testimonial-slide">
+<p class="testmonial">"Your creativity is truly outstanding! The way you brought my vision to life <br> through your designs exceeded my expectations. <br> Your talent as a graphic designer is truly remarkable."</p>
 </div>
 
-<div>
-<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28662.94825478953!2d28.1015634!3d-26.1032099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d539f33d86d%3A0xba9789de8bd1fbb3!2sAlexandra%2C%202014!5e0!3m2!1sen!2sza!4v1692541084806!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
-</div>    
+<div class="testimonial-slide">
+<p class="testmonial">"I'm incredibly impressed with your attention to detail. The precision and thoughtfulness <br> you put into every element of the design not only reflect <br> your skill but also demonstrate your dedication to delivering top-notch service"</p>
+</div>
 
-<!--<footer>
-  <p class="follow-footer">FOLLOW US </p>
-  <div class="icons">
-    <a href=""><img class="footer-icon" src="whatsapp.png" alt=""></a>
-    <a href=""><img class="footer-icon" src="twitter (1).png"alt=""></a>
-    <a href=""><img class="footer-icon" src="instagram.png" alt=""></a>  
-  </div>
-  <div>
-  </div> 
-  &copy; 2023 Your Company. All rights reserved.
-  </footer>
--->
-
-<footer>
-  <div class="footer-content">
-      <div class="section">
-          <h2>Contact Us</h2>
-          <div class="contact-info">
-              <img class="footer-icon" src="phone-call.png" alt="Phone Icon" width="20" height="20">
-              <p class="contact">(+27) 79 046 3747</p>
-          </div>
-          <div class="contact-info">
-              <img class="footer-icon" src="mail.png" alt="Email Icon" width="20" height="20">
-              <p class="contact">sekomanekarabo@gmail.com</p>
-          </div>
-      </div>
+<div class="testimonial-slide">
+<p class="testmonial">"Your professionalism throughout the entire process made working with you a pleasure. <br> From understanding my needs to delivering on time, your commitment to <br> excellence in graphic design truly sets you apart. Thank you for providing such an exceptional service"</p>
+</div>
+</div>
+</div>
+        <br>
       
-      <div class="section">
-          <h2>Connect with us</h2>
-          <div>
-              <a href="#" target="_blank"><img class="footer-icon" src="whatsapp.png"alt=""></a>
-              <a href="#" target="_blank"><img class="footer-icon" src="twitter (1).png"alt=""></a>
-              <a href="#" target="_blank"><img class="footer-icon" src="instagram.png" alt=""></a>
+        <div>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28662.94825478953!2d28.1015634!3d-26.1032099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d539f33d86d%3A0xba9789de8bd1fbb3!2sAlexandra%2C%202014!5e0!3m2!1sen!2sza!4v1692541084806!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
           </div>
-      </div>
+          
+ </body> 
+<footer>
+    <div class="footer-content">
+        <div class="section">
+            <h2 style="color: #000;">Contact Us</h2>
+            <div class="contact-info">
+                <img class="footer-icon" src="phone-call.png" alt="Phone Icon" width="20" height="20">
+                <p class="contact">(+27) 79 046 3747</p>
+            </div>
+            <div class="contact-info">
+                <img class="footer-icon" src="mail.png" alt="Email Icon" width="20" height="20">
+                <p class="contact">sekomanekarabo@gmail.com</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 style="color: #000;">Connect with us</h2>
+            <div>
+                <a href="#" target="_blank"><img class="footer-icon" src="whatsapp.png"alt=""></a>
+                <a href="#" target="_blank"><img class="footer-icon" src="twitter (1).png"alt=""></a>
+                <a href="#" target="_blank"><img class="footer-icon" src="instagram.png" alt=""></a>
+            </div>
+        </div>
+  
+        <div class="section">
+            <h2 style="color: #000;">Quick Links</h2>
+            <div class="quick-links">
+                <a href="Bps_Marketing_Pty_Ltd.html">Home</a>
+                <a href="About-us.html">About Us</a>
+                <a href="#">Services</a>
+                <a href="Contact-Us.html">Contact</a>
+            </div>
+        </div>
+  
+        <div class="section">
+            <h2 style="color: #000;">About Us</h2>
+            <p class="about-us">
+              BPS Marketing Pty(Ltd) leads globally in digital and transportation services since its 2021 establishment. Committed to innovation, the company provides integrated solutions for global operators, governments, and enterprises. Dedicated to enhancing connectivity and trust, BPS Marketing simplifies life on a global scale.</p>
+        </div>
+    </div>
+    <p class="all-right">&copy BPS MARKETING(PTY-LTD)</p>
+    <P class="all-right">All Rights Reserved</P>
+  </footer>
+  
 
-      <div class="section">
-          <h2>Quick Links</h2>
-          <div class="quick-links">
-              <a href="Bps_Marketing_Pty_Ltd.html">Home</a>
-              <a href="About-us.html">About Us</a>
-              <a href="#">Services</a>
-              <a href="Contact-Us.html">Contact</a>
-          </div>
-      </div>
-
-      <div class="section">
-          <h2>About Us</h2>
-          <p class="about-us">
-            BPS Marketing Pty(Ltd) leads globally in digital and transportation services since its 2021 establishment. Committed to innovation, the company provides integrated solutions for global operators, governments, and enterprises. Dedicated to enhancing connectivity and trust, BPS Marketing simplifies life on a global scale.</p>
-      </div>
-  </div>
-  <p class="all-right">&copy BPS MARKETING(PTY-LTD)</p>
-  <P class="all-right">All Rights Reserved</P>
-</footer>
   <script>
     let slideIndex = 0;
     const slides = document.getElementsByClassName("testimonial-slide");
@@ -182,5 +730,5 @@
     showSlides();
     </script>
 
-  </body>
+</body>
 </html>
