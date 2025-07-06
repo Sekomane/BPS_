@@ -33,4 +33,4 @@ Clean layout that represents the company’s professional identity
 
 
 🔗 View the Website
-👉 https://sekomane.github.io/BPS_/bps_Marketing_Pty_Ltd.html
+👉 https://sekomane.github.io/BPS_/Bps_Marketing_Pty_Ltd.html
